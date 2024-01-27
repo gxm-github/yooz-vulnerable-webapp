@@ -1,4 +1,4 @@
-FROM nginx:1.19.5-alpine
+FROM nginx:1.24-alpine
 
 COPY ./src /var/www/html
 
